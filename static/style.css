@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    background-color: white;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 30px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #28a745;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    margin-bottom: 8px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+}
+
+.editar {
+    background-color: #007bff;
+    color: white;
+    padding: 5px 8px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.excluir {
+    background-color: #dc3545;
+    color: white;
+    padding: 5px 8px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+button:hover,
+.editar:hover,
+.excluir:hover {
+    opacity: 0.8;
+}
+
+.voltar {
+    display: inline-block;
+    margin-top: 15px;
+    color: #555;
+    text-decoration: none;
+}
+
+.voltar:hover {
+    text-decoration: underline;
+}
+
+.limpar {
+    display: inline-block;
+    background-color: #6c757d;
+    color: white;
+    padding: 7px 10px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.limpar:hover {
+    opacity: 0.8;
+}
